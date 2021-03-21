@@ -1547,7 +1547,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF027902QX00001F</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1559,9 +1559,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir9,1</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFD16ZDMNHP</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>017093DC-919A-47CC-BE7C-9D85BC19D3CD</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
