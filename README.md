@@ -5,16 +5,19 @@
 - Intel AX201
 - Conexant CX8400
 
+## 安装的是Big Sur(11.2.3)，Catalina未测试
+
 ## 已知问题
 - 开机闪屏
-- 麦克风未能驱动
+- 麦克风为`Intel Smart Sound Technology`英特尔智音技术，未能驱动(和联想小新Pro13同样的问题)
+- 官方驱动中移除了HDMI驱动，机身HDMI不能使用，需要使用type-c转接
 
 ## BIOS设置
 - 设置硬盘模式为AHCI
 - 禁用FastBoot
 
 ## 可选
-- 设置DVMT Pre Allocated为128MB
+- 设置`DVMT Pre-Allocated`为`04(128M)`或`05(160M)`，图中修改为05后不能进BIOS应该是其他问题，重置NVRAM后正常
 - 禁用CFG Lock
 - 开启HIDPI
 
