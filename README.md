@@ -5,11 +5,12 @@
 - Intel AX201
 - Conexant CX8400
 
-## 安装的是Big Sur(11.2.3)，Catalina未测试
+## 安装的是Big Sur(11.4)
+## Catalina(10.15.7)开启HIDPI依旧会闪屏
 
 ## 已知问题
 - 开机闪屏
-- 麦克风为`Intel Smart Sound Technology`英特尔智音技术，未能驱动(和联想小新Pro13同样的问题)
+- 内置麦克风为`Intel Smart Sound Technology`英特尔智音技术，未能驱动(和联想小新Pro13同样的问题)
 - 官方驱动中移除了HDMI驱动，机身HDMI不能使用，需要使用type-c转接
 
 ## BIOS设置
@@ -23,7 +24,7 @@
 
 ### 修改BIOS设置
 #### 修改有风险，请谨慎操作
-#### 在1.08上测试正常，不保证其他版本没有异常
+#### 在1.08上测试正常，不保证其他版本没有问题
 1.先打开`WDFInst.exe`，再打开`H2OUVE-W-GUIx64.exe`
 
 2.点击`File->Load runtime`
