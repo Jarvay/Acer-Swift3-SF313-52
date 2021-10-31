@@ -5,11 +5,9 @@
 - Intel AX201
 - Conexant CX8400
 
-## 安装的是Big Sur(11.4)
-## Catalina(10.15.7)开启HIDPI依旧会闪屏
+## 系统版本- Monterey 12.0.1
 
 ## 已知问题
-- 开机闪屏
 - 内置麦克风为`Intel Smart Sound Technology`英特尔智音技术，未能驱动(和联想小新Pro13同样的问题)
 - 官方驱动中移除了HDMI驱动，机身HDMI不能使用，需要使用type-c转接
 
