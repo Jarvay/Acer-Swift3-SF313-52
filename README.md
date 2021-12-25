@@ -5,7 +5,9 @@
 - Intel AX201
 - Conexant CX8400
 
-## 系统版本- Monterey 12.0.1
+## 系统版本- Monterey 12.1
+- 其他版本请自行替换`AirportItlwm.kext`
+-   Monterey以下版本请添加`IntelBluetoothInjector.kext`，[详情参看](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey)
 
 ## 已知问题
 - 内置麦克风为`Intel Smart Sound Technology`英特尔智音技术，未能驱动(和联想小新Pro13同样的问题)
