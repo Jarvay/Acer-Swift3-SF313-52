@@ -5,7 +5,7 @@
 - Intel AX201
 - Conexant CX8400
 
-## 系统版本- Monterey 12.1
+## 系统版本- Ventura 13.4
 - 其他版本请自行替换`AirportItlwm.kext`
 -   Monterey以下版本请添加`IntelBluetoothInjector.kext`，[详情参考](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey)
 
@@ -16,6 +16,7 @@
 ## BIOS设置
 - 设置硬盘模式为AHCI
 - 禁用FastBoot
+- 禁用TPM
 
 ## 可选
 - 设置`DVMT Pre-Allocated`为`04(128M)`或`05(160M)`，图中修改为05后不能进BIOS应该是其他问题，重置NVRAM后正常
@@ -41,7 +42,7 @@
   
 5.点击File下的图标保存，重启
 
-[工具下载](https://wwa.lanzous.com/iTECYn6dlcf)
+[工具下载](https://www.lanzout.com/iTECYn6dlcf)
 
 参考文章(https://zhuanlan.zhihu.com/p/266400995)
 更多修改可参考工具中的txt文件
