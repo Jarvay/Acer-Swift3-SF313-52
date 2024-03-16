@@ -5,7 +5,7 @@
 - Intel AX201
 - Conexant CX8400
 
-## 系统版本- Sonoma 14.0
+## 系统版本- Sonoma 14.4
 - 其他版本请自行替换`AirportItlwm.kext`
 -   Monterey以下版本请添加`IntelBluetoothInjector.kext`，[详情参考](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey)
 
